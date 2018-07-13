@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Command" Version="4.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tasks.AzureBatchAccess\Tasks.AzureBatchAccess.csproj" />
+    <ProjectReference Include="..\Tasks.ContainerInstanceAccess\Tasks.ContainerInstanceAccess.csproj" />
+    <ProjectReference Include="..\Tasks.StorageQueueAccess\Tasks.StorageQueueAccess.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,137 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{502209D4-E794-4DD3-B0AF-412D9AC21405}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{54F33894-9C56-493B-8FC6-B0FBE04B0EA8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tasks", "Tasks", "{20A1BDC7-B184-4E43-94A5-0AA0CD09317E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tasks.API", "Tasks.API\Tasks.API.csproj", "{B8DDC6B0-20C1-4360-839C-ED08C1FBAC69}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{CF6AA10E-187C-4EC3-8D8C-552C9DC7AD30}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tasks.BP", "Tasks.BP\Tasks.BP.csproj", "{EB7E75CE-D281-4F15-B959-B763ACC34481}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{59A421CF-6261-44B5-B8C2-8879C0B4BAC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{1274B49C-21A1-40DC-83FC-0D52601E3D75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tasks", "Tasks", "{05A3BC28-3A00-4020-8C62-25B234B6E1D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tasks.API.UnitTests", "Tasks.API.UnitTests\Tasks.API.UnitTests.csproj", "{21B56615-5C4E-476F-AB24-372C03C42986}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tasks.StorageQueueAccess", "Tasks.StorageQueueAccess\Tasks.StorageQueueAccess.csproj", "{9E3EBC5F-6701-49A7-8695-851DA63A9E3E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tasks.BO", "Tasks.BO\Tasks.BO.csproj", "{C851CE9E-8250-4738-8712-5F77658F9D14}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tasks.BP.UnitTests", "Tasks.BP.UnitTests\Tasks.BP.UnitTests.csproj", "{212C9CFE-61E5-4F76-A8A6-3A4DB0823FAC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tasks.AzureBatchAccess", "Tasks.AzureBatchAccess\Tasks.AzureBatchAccess.csproj", "{FF5C4F58-B3A8-440C-A768-968AF0C4CAAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasks.ContainerInstanceAccess", "Tasks.ContainerInstanceAccess\Tasks.ContainerInstanceAccess.csproj", "{4E630ABF-5998-46AA-B713-922F18727265}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8DDC6B0-20C1-4360-839C-ED08C1FBAC69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8DDC6B0-20C1-4360-839C-ED08C1FBAC69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8DDC6B0-20C1-4360-839C-ED08C1FBAC69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8DDC6B0-20C1-4360-839C-ED08C1FBAC69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF6AA10E-187C-4EC3-8D8C-552C9DC7AD30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF6AA10E-187C-4EC3-8D8C-552C9DC7AD30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF6AA10E-187C-4EC3-8D8C-552C9DC7AD30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF6AA10E-187C-4EC3-8D8C-552C9DC7AD30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB7E75CE-D281-4F15-B959-B763ACC34481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB7E75CE-D281-4F15-B959-B763ACC34481}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB7E75CE-D281-4F15-B959-B763ACC34481}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB7E75CE-D281-4F15-B959-B763ACC34481}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21B56615-5C4E-476F-AB24-372C03C42986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21B56615-5C4E-476F-AB24-372C03C42986}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21B56615-5C4E-476F-AB24-372C03C42986}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21B56615-5C4E-476F-AB24-372C03C42986}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E3EBC5F-6701-49A7-8695-851DA63A9E3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E3EBC5F-6701-49A7-8695-851DA63A9E3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E3EBC5F-6701-49A7-8695-851DA63A9E3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E3EBC5F-6701-49A7-8695-851DA63A9E3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C851CE9E-8250-4738-8712-5F77658F9D14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C851CE9E-8250-4738-8712-5F77658F9D14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C851CE9E-8250-4738-8712-5F77658F9D14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C851CE9E-8250-4738-8712-5F77658F9D14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{212C9CFE-61E5-4F76-A8A6-3A4DB0823FAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{212C9CFE-61E5-4F76-A8A6-3A4DB0823FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{212C9CFE-61E5-4F76-A8A6-3A4DB0823FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{212C9CFE-61E5-4F76-A8A6-3A4DB0823FAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF5C4F58-B3A8-440C-A768-968AF0C4CAAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF5C4F58-B3A8-440C-A768-968AF0C4CAAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF5C4F58-B3A8-440C-A768-968AF0C4CAAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF5C4F58-B3A8-440C-A768-968AF0C4CAAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E630ABF-5998-46AA-B713-922F18727265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E630ABF-5998-46AA-B713-922F18727265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E630ABF-5998-46AA-B713-922F18727265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E630ABF-5998-46AA-B713-922F18727265}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{54F33894-9C56-493B-8FC6-B0FBE04B0EA8} = {502209D4-E794-4DD3-B0AF-412D9AC21405}
+		{20A1BDC7-B184-4E43-94A5-0AA0CD09317E} = {54F33894-9C56-493B-8FC6-B0FBE04B0EA8}
+		{B8DDC6B0-20C1-4360-839C-ED08C1FBAC69} = {20A1BDC7-B184-4E43-94A5-0AA0CD09317E}
+		{EB7E75CE-D281-4F15-B959-B763ACC34481} = {20A1BDC7-B184-4E43-94A5-0AA0CD09317E}
+		{1274B49C-21A1-40DC-83FC-0D52601E3D75} = {59A421CF-6261-44B5-B8C2-8879C0B4BAC3}
+		{05A3BC28-3A00-4020-8C62-25B234B6E1D5} = {1274B49C-21A1-40DC-83FC-0D52601E3D75}
+		{21B56615-5C4E-476F-AB24-372C03C42986} = {05A3BC28-3A00-4020-8C62-25B234B6E1D5}
+		{9E3EBC5F-6701-49A7-8695-851DA63A9E3E} = {20A1BDC7-B184-4E43-94A5-0AA0CD09317E}
+		{C851CE9E-8250-4738-8712-5F77658F9D14} = {20A1BDC7-B184-4E43-94A5-0AA0CD09317E}
+		{212C9CFE-61E5-4F76-A8A6-3A4DB0823FAC} = {05A3BC28-3A00-4020-8C62-25B234B6E1D5}
+		{FF5C4F58-B3A8-440C-A768-968AF0C4CAAE} = {20A1BDC7-B184-4E43-94A5-0AA0CD09317E}
+		{4E630ABF-5998-46AA-B713-922F18727265} = {20A1BDC7-B184-4E43-94A5-0AA0CD09317E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD7E1291-5F47-4612-8C70-777E918C1E9E}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs02:8080/tfs/archimed
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Tasks.AzureBatchAccess\\Tasks.AzureBatchAccess.csproj
+		SccProjectTopLevelParentUniqueName1 = Api.sln
+		SccProjectName1 = Tasks.AzureBatchAccess
+		SccLocalPath1 = Tasks.AzureBatchAccess
+		SccProjectUniqueName2 = Tasks.API.UnitTests\\Tasks.API.UnitTests.csproj
+		SccProjectTopLevelParentUniqueName2 = Api.sln
+		SccProjectName2 = Tasks.API.UnitTests
+		SccLocalPath2 = Tasks.API.UnitTests
+		SccProjectUniqueName3 = Tasks.API\\Tasks.API.csproj
+		SccProjectTopLevelParentUniqueName3 = Api.sln
+		SccProjectName3 = Tasks.API
+		SccLocalPath3 = Tasks.API
+		SccProjectUniqueName4 = Tasks.BO\\Tasks.BO.csproj
+		SccProjectTopLevelParentUniqueName4 = Api.sln
+		SccProjectName4 = Tasks.BO
+		SccLocalPath4 = Tasks.BO
+		SccProjectUniqueName5 = Tasks.BP.UnitTests\\Tasks.BP.UnitTests.csproj
+		SccProjectTopLevelParentUniqueName5 = Api.sln
+		SccProjectName5 = Tasks.BP.UnitTests
+		SccLocalPath5 = Tasks.BP.UnitTests
+		SccProjectUniqueName6 = Tasks.BP\\Tasks.BP.csproj
+		SccProjectTopLevelParentUniqueName6 = Api.sln
+		SccProjectName6 = Tasks.BP
+		SccLocalPath6 = Tasks.BP
+		SccProjectUniqueName7 = Tasks.StorageQueueAccess\\Tasks.StorageQueueAccess.csproj
+		SccProjectTopLevelParentUniqueName7 = Api.sln
+		SccProjectName7 = Tasks.StorageQueueAccess
+		SccLocalPath7 = Tasks.StorageQueueAccess
+		SccProjectUniqueName8 = Tasks.ContainerInstanceAccess\\Tasks.ContainerInstanceAccess.csproj
+		SccProjectTopLevelParentUniqueName8 = Api.sln
+		SccProjectName8 = Tasks.ContainerInstanceAccess
+		SccLocalPath8 = Tasks.ContainerInstanceAccess
+	EndGlobalSection
+EndGlobal

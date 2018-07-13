@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  tasks.api:
+    image: ${DOCKER_REGISTRY}tasksapi
+    build:
+      context: .
+      dockerfile: Tasks.API\Dockerfile
+

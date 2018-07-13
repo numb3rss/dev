@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Functions", "Functions\Functions.csproj", "{FF4E643A-8FCF-4BAD-B0AF-A13C39F9A817}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF4E643A-8FCF-4BAD-B0AF-A13C39F9A817}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF4E643A-8FCF-4BAD-B0AF-A13C39F9A817}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF4E643A-8FCF-4BAD-B0AF-A13C39F9A817}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF4E643A-8FCF-4BAD-B0AF-A13C39F9A817}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0FBC5060-2DB4-40ED-97F1-308484FF0ABE}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs02:8080/tfs/archimed
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Functions\\Functions.csproj
+		SccProjectName1 = Functions
+		SccLocalPath1 = Functions
+	EndGlobalSection
+EndGlobal
